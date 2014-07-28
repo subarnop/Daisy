@@ -38,6 +38,7 @@ $ ./a.out
 Compile for 'Input Using a Text File'
 ```
 $ gedit run.txt
+$ gcc -std=c99 main.c function.c
 $ ./a.out run.txt
 ```
 
