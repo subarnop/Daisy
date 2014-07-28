@@ -112,7 +112,7 @@ int main(int argc, char * argv[]) {
 	    if(checkIfNumber(myWords[i])) {
 	      stack[top]=atof(myWords[i]->word);
 	      top++;
-		}
+	    }
 	    else {
 	      long key=0;
 	      key=getkey(myWords[i]->word,myWords[i]->length);
@@ -160,8 +160,9 @@ int main(int argc, char * argv[]) {
 	      else if (key == quit) {
 		return 0;
 	      }
-	      else
+	      else {
 		printf("Keyword not found.. ..\n");
+	      }
 	    }
 	  }
     }
@@ -236,8 +237,9 @@ int main(int argc, char * argv[]) {
 	    else if (key == quit || key == 0) {
 	      return 0;
 	    }
-	    else
+	    else {
 	      printf("Keyword not found.. ..\n");
+	    }
 	  }
 	}
       }
