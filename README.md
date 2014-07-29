@@ -1,6 +1,7 @@
 Daisy - Simple Arithmetic and Logical Interpreter
 ===============================================
-
+![alt text](https://github.com/Subarno/Daisy/blob/master/Screen_shots/File_Input.jpg "Daisy")
+--------------------------
 Daisy is a simple arithmetic and logical Interpreter. It is developed using the very simple methods of developing an Interpreter. It helps to solve simple arithmetic expressions and also implement logical conditions so as to implement very preliminary idea of programming 
 Daisy started as a fun project and loved to be a open source in 2014.
 Current version of Daisy works on postfix method of solution into a stack data model.
