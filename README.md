@@ -14,7 +14,7 @@ The initial prototype runs on Linux. There is no Mac or Windows version yet.
 
 Requirements :white_check_mark:
 -------------------------------
-:pushpin: gcc version 4.8.2 
+:pushpin: gcc version 4.x 
 
 Compilation :arrow_forward:
 ---------------------------
@@ -29,18 +29,17 @@ Create and move into the build directory:
 $ cd Daisy
 ```
 
-Compile and run for 'Runtime Input Method' 
+Runtime Input Method:
 ```
 $ gcc -std=c99 main.c function.c
 $ ./a.out
 
 ```
 
-Compile for 'Input Using a Text File'
+Input using a Text File:
 ```
-$ gedit run.txt
 $ gcc -std=c99 main.c function.c
-$ ./a.out run.txt
+$ ./a.out /path/to/file
 ```
 
 Functional Words used and their functions:white_check_mark:
