@@ -6,12 +6,6 @@ Daisy is a simple arithmetic and logical Interpreter. It is developed using the 
 Daisy started as a fun project and loved to be a open source in 2014.
 Current version of Daisy works on postfix method of solution into a stack data model.
 
-Daisy just consists of a c program run in a gcc compiler.
-Daisy has been developed using certain arithmetic key words which can be directly implemented from a text file or can be taken as input during run time.
-
-It is written in C.
-The initial prototype runs on Linux. There is no Mac or Windows version yet.
-
 Requirements :white_check_mark:
 -------------------------------
 :pushpin: gcc version 4.x
@@ -20,7 +14,7 @@ Requirements :white_check_mark:
 
 Compilation :arrow_forward:
 ---------------------------
-Once you have setup the dependencies, download the source:
+Once you have setup the dependencies, download the source and compile:
 ```
 $ cd ~/Downloads
 $ git clone https://github.com/Subarno/Daisy
