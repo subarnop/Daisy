@@ -1,5 +1,5 @@
 Daisy - Simple Arithmetic and Logical Interpreter
-===============================================
+=================================================
 ![alt text](https://github.com/Subarno/Daisy/blob/master/Screen_shots/File_Input.jpg "Daisy")
 --------------------------
 Daisy is a simple arithmetic and logical Interpreter. It is developed using the very simple methods of developing an Interpreter. It helps to solve simple arithmetic expressions and also implement logical conditions so as to implement very preliminary idea of programming 
@@ -14,7 +14,9 @@ The initial prototype runs on Linux. There is no Mac or Windows version yet.
 
 Requirements :white_check_mark:
 -------------------------------
-:pushpin: gcc version 4.x 
+:pushpin: gcc version 4.x
+
+:pushpin: GNU Make 
 
 Compilation :arrow_forward:
 ---------------------------
@@ -25,16 +27,15 @@ $ git clone https://github.com/Subarno/Daisy
 $ cd Daisy
 $ make
 $ ./daisy
-
 ```
 
-Input using a Text File:
+Input using a script file:
 ```
 $ ./daisy /path/to/script
 ```
 
-Functional Words used and their functions:white_check_mark:
-------------
+Keywords :white_check_mark:
+---------------------------
 ```
 add   --> Addition
 sub   --> Subtraction 
