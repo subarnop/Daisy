@@ -22,24 +22,15 @@ Once you have setup the dependencies, download the source:
 ```
 $ cd ~/Downloads
 $ git clone https://github.com/Subarno/Daisy
-```
-
-Create and move into the build directory:
-```
 $ cd Daisy
-```
-
-Runtime Input Method:
-```
-$ gcc -std=c99 main.c function.c
-$ ./a.out
+$ make
+$ ./daisy
 
 ```
 
 Input using a Text File:
 ```
-$ gcc -std=c99 main.c function.c
-$ ./a.out /path/to/file
+$ ./daisy /path/to/script
 ```
 
 Functional Words used and their functions:white_check_mark:
